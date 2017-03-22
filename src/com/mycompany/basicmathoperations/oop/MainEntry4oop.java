@@ -40,21 +40,21 @@ public class MainEntry4oop {
 		result = divider.divide(number1, number2);
 		System.out.printf("result of divide(float, float) is %.2f%n", result);
 		result = divider.divide2numbers();
-		System.out.printf("result of multiply2numbers() is %.2f%n", result);
+		System.out.printf("result of divide2numbers() is %.2f%n", result);
 		
 		//Addition Block
 		Add addit = new AdditionOperatorFor2Numbers(number1, number2);
 		result = addit.add(number1, number2);
-		System.out.printf("result of divide(float, float) is %.2f%n", result);
+		System.out.printf("result of add(float, float) is %.2f%n", result);
 		result = addit.add2numbers();
-		System.out.printf("result of multiply2numbers() is %.2f%n", result);
+		System.out.printf("result of add2numbers() is %.2f%n", result);
 		
 		//Subtraction Block
 		Subtract subtr = new SubtractionOperatorFor2Numbers(number1, number2);
 		result = subtr.subtract(number1, number2);
-		System.out.printf("result of divide(float, float) is %.2f%n", result);
+		System.out.printf("result of subtract(float, float) is %.2f%n", result);
 		result = subtr.subtract2numbers();
-		System.out.printf("result of multiply2numbers() is %.2f%n", result);
+		System.out.printf("result of subtract2numbers() is %.2f%n", result);
 		
 		
 
