@@ -36,6 +36,15 @@ public class MainEntry4simple {
 		// Divide Block
 		Divide divider = new Divide();
 		result = divider.divide(number1, number2);
+		
+		//Addition Block
+		Addition addit = new Addition();
+		result = addit.add(number1, number2);
+		
+		//Subtraction Block
+		Subtraction subtr = new Subtraction();
+		result = subtr.subtract(number1, number2);
+		
 
 		// print out result - NOTE %d is for int, %f is for float(and double),
 		// %.2f means 2 digits after decimal like 123.45
